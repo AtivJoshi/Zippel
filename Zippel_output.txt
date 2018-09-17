@@ -1,0 +1,346 @@
+C:\ProgramData\Anaconda2\python.exe E:/IIT_Gn/PyCharm_Projects/Polynomial/zippels_algo.py
+
+Oracle Function: x**4*y + x**2*y**2*z + x*y*z + 3
+
+starting point:  [1, 2, 3]
+p0:  23
+S:  [1]
+
+***********************************
+
+i:  0 
+       j= 0 
+
+         random r_0:  70
+         skeletal polynomial:  g0 
+
+
+               k= 0
+                 Random Tuple A: No need for random tuple
+                 Output of Oracle:  48079223
+
+         Linear Equations:  [g0 - 48079223]
+         solution:  48079223
+         p1:  48079223
+
+       j= 1 
+
+         random r_1:  72
+         skeletal polynomial:  g0 
+
+
+               k= 0
+                 Random Tuple A: No need for random tuple
+                 Output of Oracle:  53810355
+
+         Linear Equations:  [g0 - 53810355]
+         solution:  53810355
+         p2:  53810355
+
+       j= 2 
+
+         random r_2:  87
+         skeletal polynomial:  g0 
+
+
+               k= 0
+                 Random Tuple A: No need for random tuple
+                 Output of Oracle:  114670875
+
+         Linear Equations:  [g0 - 114670875]
+         solution:  114670875
+         p3:  114670875
+
+       j= 3 
+
+         random r_3:  56
+         skeletal polynomial:  g0 
+
+
+               k= 0
+                 Random Tuple A: No need for random tuple
+                 Output of Oracle:  19706963
+
+         Linear Equations:  [g0 - 19706963]
+         solution:  19706963
+         p4:  19706963
+
+P:  [23, 48079223, 53810355, 114670875, 19706963]
+r:  [1, 70, 72, 87, 56]
+
+p:  [23, 48079223, 53810355, 114670875, 19706963]
+m(=r) [1, 70, 72, 87, 56]
+output of dense interpolation:  2*x0**4 + 12*x0**2 + 6*x0 + 3
+p0:  2*x0**4 + 12*x0**2 + 6*x0 + 3
+S [x0, 1, x0**2, x0**4]
+
+
+**************************************************************************
+
+i:  1 
+       j= 0 
+
+         random r_0:  91
+         skeletal polynomial:  g0*x0 + g1 + g2*x0**2 + g3*x0**4 
+
+
+               k= 0
+                 Random Tuple A:  [94]
+                 Equation Generated:  94*g0 + g1 + 8836*g2 + 78074896*g3 - 7324353949
+
+               k= 1
+                 Random Tuple A:  [60]
+                 Equation Generated:  60*g0 + g1 + 3600*g2 + 12960000*g3 - 1268811183
+
+               k= 2
+                 Random Tuple A:  [17]
+                 Equation Generated:  17*g0 + g1 + 289*g2 + 83521*g3 - 14784682
+
+               k= 3
+                 Random Tuple A:  [83]
+                 Equation Generated:  83*g0 + g1 + 6889*g2 + 47458321*g3 - 4489873300
+
+         Linear Equations:  [94*g0 + g1 + 8836*g2 + 78074896*g3 - 7324353949, 60*g0 + g1 + 3600*g2 + 12960000*g3 - 1268811183, 17*g0 + g1 + 289*g2 + 83521*g3 - 14784682, 83*g0 + g1 + 6889*g2 + 47458321*g3 - 4489873300]
+         solution:  (273, 3, 24843, 91)
+         p1:  91*x0**4 + 24843*x0**2 + 273*x0 + 3
+
+       j= 1 
+
+         random r_1:  71
+         skeletal polynomial:  g0*x0 + g1 + g2*x0**2 + g3*x0**4 
+
+
+               k= 0
+                 Random Tuple A:  [67]
+                 Equation Generated:  67*g0 + g1 + 4489*g2 + 20151121*g3 - 1498631012
+
+               k= 1
+                 Random Tuple A:  [83]
+                 Equation Generated:  83*g0 + g1 + 6889*g2 + 47458321*g3 - 3473740820
+
+               k= 2
+                 Random Tuple A:  [86]
+                 Equation Generated:  86*g0 + g1 + 7396*g2 + 54700816*g3 - 3995625965
+
+               k= 3
+                 Random Tuple A:  [71]
+                 Equation Generated:  71*g0 + g1 + 5041*g2 + 25411681*g3 - 1880479520
+
+         Linear Equations:  [67*g0 + g1 + 4489*g2 + 20151121*g3 - 1498631012, 83*g0 + g1 + 6889*g2 + 47458321*g3 - 3473740820, 86*g0 + g1 + 7396*g2 + 54700816*g3 - 3995625965, 71*g0 + g1 + 5041*g2 + 25411681*g3 - 1880479520]
+         solution:  (213, 3, 15123, 71)
+         p2:  71*x0**4 + 15123*x0**2 + 213*x0 + 3
+
+       j= 2 
+
+         random r_2:  62
+         skeletal polynomial:  g0*x0 + g1 + g2*x0**2 + g3*x0**4 
+
+
+               k= 0
+                 Random Tuple A:  [62]
+                 Equation Generated:  62*g0 + g1 + 3844*g2 + 14776336*g3 - 960473375
+
+               k= 1
+                 Random Tuple A:  [69]
+                 Equation Generated:  69*g0 + g1 + 4761*g2 + 22667121*g3 - 1460278191
+
+               k= 2
+                 Random Tuple A:  [63]
+                 Equation Generated:  63*g0 + g1 + 3969*g2 + 15752961*g3 - 1022465811
+
+               k= 3
+                 Random Tuple A:  [36]
+                 Equation Generated:  36*g0 + g1 + 1296*g2 + 1679616*g3 - 119088363
+
+         Linear Equations:  [62*g0 + g1 + 3844*g2 + 14776336*g3 - 960473375, 69*g0 + g1 + 4761*g2 + 22667121*g3 - 1460278191, 63*g0 + g1 + 3969*g2 + 15752961*g3 - 1022465811, 36*g0 + g1 + 1296*g2 + 1679616*g3 - 119088363]
+         solution:  (186, 3, 11532, 62)
+         p3:  62*x0**4 + 11532*x0**2 + 186*x0 + 3
+
+       j= 3 
+
+         random r_3:  28
+         skeletal polynomial:  g0*x0 + g1 + g2*x0**2 + g3*x0**4 
+
+
+               k= 0
+                 Random Tuple A:  [54]
+                 Equation Generated:  54*g0 + g1 + 2916*g2 + 8503056*g3 - 244948539
+
+               k= 1
+                 Random Tuple A:  [10]
+                 Equation Generated:  10*g0 + g1 + 100*g2 + 10000*g3 - 516043
+
+               k= 2
+                 Random Tuple A:  [63]
+                 Equation Generated:  63*g0 + g1 + 3969*g2 + 15752961*g3 - 450423291
+
+               k= 3
+                 Random Tuple A:  [15]
+                 Equation Generated:  15*g0 + g1 + 225*g2 + 50625*g3 - 1947963
+
+         Linear Equations:  [54*g0 + g1 + 2916*g2 + 8503056*g3 - 244948539, 10*g0 + g1 + 100*g2 + 10000*g3 - 516043, 63*g0 + g1 + 3969*g2 + 15752961*g3 - 450423291, 15*g0 + g1 + 225*g2 + 50625*g3 - 1947963]
+         solution:  (84, 3, 2352, 28)
+         p4:  28*x0**4 + 2352*x0**2 + 84*x0 + 3
+
+P:  [2*x0**4 + 12*x0**2 + 6*x0 + 3, 91*x0**4 + 24843*x0**2 + 273*x0 + 3, 71*x0**4 + 15123*x0**2 + 213*x0 + 3, 62*x0**4 + 11532*x0**2 + 186*x0 + 3, 28*x0**4 + 2352*x0**2 + 84*x0 + 3]
+r:  [2, 91, 71, 62, 28]
+
+for monomial:  x0
+p: [6, 273, 213, 186, 84]
+m(=r) [2, 91, 71, 62, 28]
+output of dense interpolation:  3*x1
+
+for monomial:  1
+p: [3, 3, 3, 3, 3]
+m(=r) [2, 91, 71, 62, 28]
+output of dense interpolation:  3
+
+for monomial:  x0**2
+p: [12, 24843, 15123, 11532, 2352]
+m(=r) [2, 91, 71, 62, 28]
+output of dense interpolation:  3*x1**2
+
+for monomial:  x0**4
+p: [2, 91, 71, 62, 28]
+m(=r) [2, 91, 71, 62, 28]
+output of dense interpolation:  x1
+p0:  x0**4*x1 + 3*x0**2*x1**2 + 3*x0*x1 + 3
+S [1, x0*x1, x0**4*x1, x0**2*x1**2]
+
+
+**************************************************************************
+i:  2 
+       j= 0 
+
+         random r_0:  47
+         skeletal polynomial:  g0 + g1*x0*x1 + g2*x0**4*x1 + g3*x0**2*x1**2 
+
+
+               k= 0
+                 Random Tuple A:  [37, 64]
+                 Equation Generated:  g0 + 2368*g1 + 119946304*g2 + 5607424*g3 - 383606531
+
+               k= 1
+                 Random Tuple A:  [13, 18]
+                 Equation Generated:  g0 + 234*g1 + 514098*g2 + 54756*g3 - 3098631
+
+               k= 2
+                 Random Tuple A:  [97, 21]
+                 Equation Generated:  g0 + 2037*g1 + 1859114901*g2 + 4149369*g3 - 2054230986
+
+               k= 3
+                 Random Tuple A:  [28, 69]
+                 Equation Generated:  g0 + 1932*g1 + 42411264*g2 + 3732624*g3 - 217935399
+
+         Linear Equations:  [g0 + 2368*g1 + 119946304*g2 + 5607424*g3 - 383606531, g0 + 234*g1 + 514098*g2 + 54756*g3 - 3098631, g0 + 2037*g1 + 1859114901*g2 + 4149369*g3 - 2054230986, g0 + 1932*g1 + 42411264*g2 + 3732624*g3 - 217935399]
+         solution:  (3, 47, 1, 47)
+         p1:  x0**4*x1 + 47*x0**2*x1**2 + 47*x0*x1 + 3
+
+       j= 1 
+
+         random r_1:  26
+         skeletal polynomial:  g0 + g1*x0*x1 + g2*x0**4*x1 + g3*x0**2*x1**2 
+
+
+               k= 0
+                 Random Tuple A:  [65, 2]
+                 Equation Generated:  g0 + 130*g1 + 35701250*g2 + 16900*g3 - 36144033
+
+               k= 1
+                 Random Tuple A:  [82, 87]
+                 Equation Generated:  g0 + 7134*g1 + 3933459312*g2 + 50893956*g3 - 5256887655
+
+               k= 2
+                 Random Tuple A:  [93, 50]
+                 Equation Generated:  g0 + 4650*g1 + 3740260050*g2 + 21622500*g3 - 4302565953
+
+               k= 3
+                 Random Tuple A:  [52, 12]
+                 Equation Generated:  g0 + 624*g1 + 87739392*g2 + 389376*g3 - 97879395
+
+         Linear Equations:  [g0 + 130*g1 + 35701250*g2 + 16900*g3 - 36144033, g0 + 7134*g1 + 3933459312*g2 + 50893956*g3 - 5256887655, g0 + 4650*g1 + 3740260050*g2 + 21622500*g3 - 4302565953, g0 + 624*g1 + 87739392*g2 + 389376*g3 - 97879395]
+         solution:  (3, 26, 1, 26)
+         p2:  x0**4*x1 + 26*x0**2*x1**2 + 26*x0*x1 + 3
+
+       j= 2 
+
+         random r_2:  39
+         skeletal polynomial:  g0 + g1*x0*x1 + g2*x0**4*x1 + g3*x0**2*x1**2 
+
+
+               k= 0
+                 Random Tuple A:  [49, 50]
+                 Equation Generated:  g0 + 2450*g1 + 288240050*g2 + 6002500*g3 - 522433103
+
+               k= 1
+                 Random Tuple A:  [19, 30]
+                 Equation Generated:  g0 + 570*g1 + 3909630*g2 + 324900*g3 - 16602963
+
+               k= 2
+                 Random Tuple A:  [1, 43]
+                 Equation Generated:  g0 + 43*g1 + 43*g2 + 1849*g3 - 73834
+
+               k= 3
+                 Random Tuple A:  [84, 11]
+                 Equation Generated:  g0 + 924*g1 + 547658496*g2 + 853776*g3 - 580991799
+
+         Linear Equations:  [g0 + 2450*g1 + 288240050*g2 + 6002500*g3 - 522433103, g0 + 570*g1 + 3909630*g2 + 324900*g3 - 16602963, g0 + 43*g1 + 43*g2 + 1849*g3 - 73834, g0 + 924*g1 + 547658496*g2 + 853776*g3 - 580991799]
+         solution:  (3, 39, 1, 39)
+         p3:  x0**4*x1 + 39*x0**2*x1**2 + 39*x0*x1 + 3
+
+       j= 3 
+
+         random r_3:  86
+         skeletal polynomial:  g0 + g1*x0*x1 + g2*x0**4*x1 + g3*x0**2*x1**2 
+
+
+               k= 0
+                 Random Tuple A:  [48, 71]
+                 Equation Generated:  g0 + 3408*g1 + 376897536*g2 + 11614464*g3 - 1376034531
+
+               k= 1
+                 Random Tuple A:  [1, 94]
+                 Equation Generated:  g0 + 94*g1 + 94*g2 + 8836*g3 - 768077
+
+               k= 2
+                 Random Tuple A:  [69, 16]
+                 Equation Generated:  g0 + 1104*g1 + 362673936*g2 + 1218816*g3 - 467587059
+
+               k= 3
+                 Random Tuple A:  [34, 91]
+                 Equation Generated:  g0 + 3094*g1 + 121606576*g2 + 9572836*g3 - 945136559
+
+         Linear Equations:  [g0 + 3408*g1 + 376897536*g2 + 11614464*g3 - 1376034531, g0 + 94*g1 + 94*g2 + 8836*g3 - 768077, g0 + 1104*g1 + 362673936*g2 + 1218816*g3 - 467587059, g0 + 3094*g1 + 121606576*g2 + 9572836*g3 - 945136559]
+         solution:  (3, 86, 1, 86)
+         p4:  x0**4*x1 + 86*x0**2*x1**2 + 86*x0*x1 + 3
+
+P:  [x0**4*x1 + 3*x0**2*x1**2 + 3*x0*x1 + 3, x0**4*x1 + 47*x0**2*x1**2 + 47*x0*x1 + 3, x0**4*x1 + 26*x0**2*x1**2 + 26*x0*x1 + 3, x0**4*x1 + 39*x0**2*x1**2 + 39*x0*x1 + 3, x0**4*x1 + 86*x0**2*x1**2 + 86*x0*x1 + 3]
+r:  [3, 47, 26, 39, 86]
+
+for monomial:  1
+p: [3, 3, 3, 3, 3]
+m(=r) [3, 47, 26, 39, 86]
+output of dense interpolation:  3
+
+for monomial:  x0*x1
+p: [3, 47, 26, 39, 86]
+m(=r) [3, 47, 26, 39, 86]
+output of dense interpolation:  x2
+
+for monomial:  x0**4*x1
+p: [1, 1, 1, 1, 1]
+m(=r) [3, 47, 26, 39, 86]
+output of dense interpolation:  1
+
+for monomial:  x0**2*x1**2
+p: [3, 47, 26, 39, 86]
+m(=r) [3, 47, 26, 39, 86]
+output of dense interpolation:  x2
+p0:  x0**4*x1 + x0**2*x1**2*x2 + x0*x1*x2 + 3
+S [1, x0**2*x1**2*x2, x0*x1*x2, x0**4*x1]
+
+
+**************************************************************************
+interpolated polynomial:  x0**4*x1 + x0**2*x1**2*x2 + x0*x1*x2 + 3
+
+Process finished with exit code 0
